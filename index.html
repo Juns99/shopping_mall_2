@@ -1,0 +1,215 @@
+<!--@layout(/layout/basic/layout.html)-->
+<!--@js(/layout/basic/js/countdown_start.js)-->
+<!--@js(/layout/basic/js/jquery.plugin.min.js)-->
+<!--@js(/layout/basic/js/jquery.countdown.min.js)-->
+<!--@css(/layout/basic/css/swiper.min.css)-->
+<!--@js(/layout/basic/js/swiper.min.js)-->
+<!--@js(/layout/basic/js/main_script.js)-->
+<!--edibot_skin_data:{"width":960,"mo_width":640}-->
+
+
+<div class="cboth visual"><!-- 메인 이미지 링크 수정하는곳 -->
+    <!--@import(/smart-banner/shop1/smart-banner-admin-PC00012.html)-->
+</div><!-- //visual -->
+
+<div id="main_area" class="width1200">
+	<div class="main_bans cboth">
+		<div class="m_title01 cboth">
+            <div module="custom_moduleedit_201" style="font-size:28px;font-weight:400;letter-spacing:0.5px;">PROMOTION</div>
+        </div><!-- 메인 배너 타이틀 수정하는곳 -->
+		<ul><!-- 메인 이벤트 배너 수정하는곳 -->
+			<li>
+            	<div app4you-smart-banner="smart-banner-admin-PC00002" class="-xans-element- xans-smart-banner-admin xans-smart-banner-admin-PC00002" data-banner-name="중단배너1 영역">
+                    <div style="height:468px;">
+                		<a href="#"><img src="/images/main_ban01.jpg" style="display:none;" height="468px"></a>
+                    </div>
+                </div>
+            </li>
+			<li>
+                <div app4you-smart-banner="smart-banner-admin-PC00003" class="-xans-element- xans-smart-banner-admin xans-smart-banner-admin-PC00003" data-banner-name="중단배너2 영역">
+                    <div style="height:468px;">
+                		<a href="#"><img src="/images/main_ban02.jpg" style="display:none;" height="468px"></a>
+                    </div>
+                </div>
+            </li>
+			<li>
+                <div app4you-smart-banner="smart-banner-admin-PC00004" class="-xans-element- xans-smart-banner-admin xans-smart-banner-admin-PC00004" data-banner-name="중단배너3 영역">
+                    <div style="height:468px;">
+                		<a href="#"><img src="/images/main_ban03.jpg" style="display:none;" height="468px"></a>
+                    </div>
+                </div>
+            </li>
+		</ul>
+	</div><!-- //main_bans -->
+
+	<div class="cboth main_roll_box">
+		<div class="m_title01 cboth">
+            <div module="custom_moduleedit_201" style="font-size:28px;font-weight:400;letter-spacing:0.5px;">HOT PRODUCT</div>
+        </div><!-- 메인 배너 타이틀 수정하는곳 -->
+		<div module="product_listmain_1" class="ec-base-product swiper-container swiper1">
+			<ul class="prdList roll_product swiper-wrapper">
+				<li id="anchorBoxId_{$product_no}" class="swiper-slide">
+					<div class="thumbnail">
+						<div class="prdImg">
+							<div class="likeButton {$disp_likeprd_class}"><button type="button">{$disp_likeprd_icon}<strong>{$disp_likeprd_count}</strong></button></div>
+							<a href="{$link_product_detail}" name="anchorBoxName_{$product_no}"><img src="{$image_medium}" id="{$image_medium_id}" alt="{$seo_alt_tag}" /><span module="product_Imagestyle"><span class="prdIcon {$icon_class_name}" style="background-image:url('{$icon_url}');"></span></span></a>
+
+						</div>
+					</div>
+					<div class="description">
+						<div class="inner_description">
+							<div class="timesale_box"><span class="saletime"></span><span class="sale_per"></span></div>
+							<div class="name"><a href="{$link_product_detail}" class="{$product_name_display|display}"><span class="title {$product_name_title_display|display}">{$product_name_title} :</span> {$product_name}</a></div>
+							<ul module="product_ListItem" class="spec">
+								<li class="{$item_display|display}" rel="{$item_title|striptag}"><strong class="title {$item_title_display|display}">{$item_title} :</strong> {$item_content}</li>
+								<li class="{$item_display|display}" rel="{$item_title|striptag}"><strong class="title {$item_title_display|display}">{$item_title} :</strong> {$item_content}</li>
+							</ul>
+							<div class="icon">
+								<div class="promotion">{$soldout_icon} {$stock_icon} {$recommend_icon} {$new_icon} {$product_icons} {$today_arrival_icon} {$pickup_icon} {$benefit_icons}</div>
+								<div class="button">
+								   <div class="likeButton {$disp_likeprd_class}"><button type="button">{$disp_likeprd_icon} <strong>{$disp_likeprd_count}</strong></button></div>
+								   <div class="option">{$option_preview_icon}</div>
+									 <span class="wish">{$list_wish_icon}</span>
+							   </div>
+
+							</div>
+						</div>
+					</div><!-- //inner_description -->
+				</li>
+				<li id="anchorBoxId_{$product_no}" class="swiper-slide">
+					<div class="thumbnail">
+						<div class="prdImg">
+							<div class="likeButton {$disp_likeprd_class}"><button type="button">{$disp_likeprd_icon}<strong>{$disp_likeprd_count}</strong></button></div>
+							<a href="{$link_product_detail}" name="anchorBoxName_{$product_no}"><img src="{$image_medium}" id="{$image_medium_id}" alt="{$seo_alt_tag}" /><span module="product_Imagestyle"><span class="prdIcon {$icon_class_name}" style="background-image:url('{$icon_url}');"></span></span></a>
+
+						</div>
+					</div>
+					<div class="description">
+						<div class="inner_description">
+							<div class="timesale_box"><span class="saletime"></span><span class="sale_per"></span></div>
+							<div class="name"><a href="{$link_product_detail}" class="{$product_name_display|display}"><span class="title {$product_name_title_display|display}">{$product_name_title} :</span> {$product_name}</a></div>
+							<ul module="product_ListItem" class="spec">
+								<li class="{$item_display|display}" rel="{$item_title|striptag}"><strong class="title {$item_title_display|display}">{$item_title} :</strong> {$item_content}</li>
+								<li class="{$item_display|display}" rel="{$item_title|striptag}"><strong class="title {$item_title_display|display}">{$item_title} :</strong> {$item_content}</li>
+							</ul>
+							<div class="icon">
+								<div class="promotion">{$soldout_icon} {$stock_icon} {$recommend_icon} {$new_icon} {$product_icons} {$today_arrival_icon} {$pickup_icon} {$benefit_icons}</div>
+								<div class="button">
+								   <div class="likeButton {$disp_likeprd_class}"><button type="button">{$disp_likeprd_icon} <strong>{$disp_likeprd_count}</strong></button></div>
+								   <div class="option">{$option_preview_icon}</div>
+									 <span class="wish">{$list_wish_icon}</span>
+							   </div>
+
+							</div>
+						</div>
+					</div><!-- //inner_description -->
+				</li>
+			</ul>
+		</div>
+		<div class="swiper-pagination swiper-pagination1"></div>
+	</div><!-- //main_roll_box -->
+
+ <div style="margin-top:150px;">
+ 	<!-- import(/smart-banner/shop1/smart-banner-admin-PC00011.html)-->
+
+	<img src="https://www.image-maps.com/m/private/0/iogcthdoh9ctsv2mjp4dqknvlf_4.png" border="0" width="1200" height="180" orgWidth="1200" orgHeight="180" usemap="#map2"/>
+	<map name="map2">
+		<area title="침실 바로가기" href="http://skin-skin4.mjs990705.cafe24.com/category/%EC%B9%A8%EC%8B%A4%EA%B0%80%EA%B5%AC/24/" shape="rect" coords="24,0,216,180" style="outline:none;" target="_blank"     />
+		<area title="화장대 바로가기" href="http://skin-skin4.mjs990705.cafe24.com/category/%ED%99%94%EC%9E%A5%EB%8C%80%EC%BD%98%EC%86%94/42/" shape="rect" coords="232,0,372,180" style="outline:none;" target="_blank"     />
+		<area title="서재 바로가기" href="http://skin-skin4.mjs990705.cafe24.com/category/%EC%84%9C%EC%9E%AC%EA%B0%80%EA%B5%AC/25/" shape="rect" coords="386,1,514,180" style="outline:none;" target="_blank"     />
+		<area title="테이블 바로가기" href="http://skin-skin4.mjs990705.cafe24.com/category/%EC%B1%85%EC%83%81/32/" shape="rect" coords="536,0,698,180" style="outline:none;" target="_blank"     />
+		<area title="의자 바로가기" href="http://skin-skin4.mjs990705.cafe24.com/category/%EC%9D%98%EC%9E%90/44/" shape="rect" coords="718,0,848,180" style="outline:none;" target="_blank"     />
+		<area title="벽장식 바로가기" href="http://skin-skin4.mjs990705.cafe24.com/category/%EB%B2%BD%EC%9E%A5%EC%8B%9D/34/" shape="rect" coords="879,0,1017,180" style="outline:none;" target="_blank"     />
+		<area title="생활용품 바로가기" href="http://skin-skin4.mjs990705.cafe24.com/category/%EC%83%9D%ED%99%9C%EC%9A%A9%ED%92%88/48/" shape="rect" coords="1033,0,1168,180" style="outline:none;" target="_blank"     />
+	</map>
+</div>
+
+ <div module="product_listmain_5" class="ec-base-product">
+     <!--
+         $count = 10
+             ※ 상품진열갯수를 설정하는 변수입니다. 설정하지 않을 경우, 최대 200개의 상품이 진열 됩니다.
+             ※ 진열된 상품이 많으면, 쇼핑몰에 부하가 발생할 수 있습니다.
+     -->
+     <div class="title">
+         <h2>
+             <span style="display: {$category_title_text_display};">{$category_title_text}</span>
+             <span style="display: {$category_title_img_display};"><img src="{$category_title_img}" alt="{$category_title_text}" /></span>
+         </h2>
+     </div>
+     <ul class="prdList grid2">
+         <li id="anchorBoxId_{$product_no}">
+             <div class="thumbnail">
+                 <div class="prdImg">
+                     <a href="{$link_product_detail}" name="anchorBoxName_{$product_no}"><img src="{$image_medium}" id="{$image_medium_id}" alt="{$seo_alt_tag}" /><span module="product_Imagestyle"><span class="prdIcon {$icon_class_name}" style="background-image:url('{$icon_url}');"></span></span></a>
+
+                 </div>
+                 <div class="icon">
+                     <div class="promotion">{$soldout_icon} {$stock_icon} {$recommend_icon} {$new_icon} {$product_icons} {$today_arrival_icon} {$pickup_icon} {$benefit_icons}</div>
+                     <div class="button">
+                         <div class="likeButton {$disp_likeprd_class}"><button type="button">{$disp_likeprd_icon}<strong>{$disp_likeprd_count}</strong></button></div>
+                         <div class="option">{$option_preview_icon}</div> {$basket_icon}
+												 <span>{$list_wish_icon}</span>
+                     </div>
+                 </div>
+             </div>
+             <div class="description">
+                 <strong class="name"><a href="{$link_product_detail}" class="{$product_name_display|display}"><span class="title {$product_name_title_display|display}"></span> {$product_name}</a></strong>
+                 <ul module="product_ListItem" class="spec">
+                     <li class="{$item_display|display}"><strong class="title {$item_title_display|display}"></strong> {$item_content}</li>
+                     <li class="{$item_display|display}"><strong class="title {$item_title_display|display}"></strong> {$item_content}</li>
+                 </ul>
+             </div>
+         </li>
+         <li id="anchorBoxId_{$product_no}">
+             <div class="thumbnail">
+                 <div class="prdImg">
+                     <a href="{$link_product_detail}" name="anchorBoxName_{$product_no}"><img src="{$image_medium}" id="{$image_medium_id}" alt="{$seo_alt_tag}" /><span module="product_Imagestyle"><span class="prdIcon {$icon_class_name}" style="background-image:url('{$icon_url}');"></span></span></a>
+
+                 </div>
+                 <div class="icon">
+                     <div class="promotion">{$soldout_icon} {$stock_icon} {$recommend_icon} {$new_icon} {$product_icons} {$today_arrival_icon} {$pickup_icon} {$benefit_icons}</div>
+                     <div class="button">
+                         <div class="likeButton {$disp_likeprd_class}"><button type="button">{$disp_likeprd_icon}<strong>{$disp_likeprd_count}</strong></button></div>
+                         <div class="option">{$option_preview_icon}</div> {$basket_icon}
+												 <span >{$list_wish_icon}</span>
+                     </div>
+                 </div>
+             </div>
+             <div class="description">
+                 <strong class="name"><a href="{$link_product_detail}" class="{$product_name_display|display}"><span class="title {$product_name_title_display|display}"></span> {$product_name}</a></strong>
+                 <ul module="product_ListItem" class="spec">
+                     <li class="{$item_display|display}"><strong class="title {$item_title_display|display}"></strong> {$item_content}</li>
+                     <li class="{$item_display|display}"><strong class="title {$item_title_display|display}"></strong> {$item_content}</li>
+                 </ul>
+             </div>
+         </li>
+     </ul>
+ </div>
+
+	<div style="margin-top:110px;">
+	 <!--@import(/smart-banner/shop1/smart-banner-admin-PC00010.html)-->
+	</div>
+	<div class="m_title02 cboth">
+    	<div module="custom_moduleedit_201" style="font-size:28px;font-weight:400;letter-spacing:0.5px;">INSTAGRAM</div>
+    </div><!-- 메인 인스타그램 타이틀 수정하는곳 -->
+	<div class="main_insta_box">
+		<div id="instafeed"></div>
+		<section id="instagramWidgetManual" style="width:100%;margin-top:-20px;">
+		<!--@js(/layout/basic/js/instafeed.min.js)-->
+		<!--@js(/layout/basic/js/insta_start.js)-->
+		<!-- LightWidget WIDGET -->
+		<div class="instagram_box">
+			<script src="http://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+			<iframe src="//lightwidget.com/widgets/c032ef1c6d915c48aa54dd0d2b7c77f9.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+		</div>
+		</section>
+	</div><!-- //main_insta_box -->
+</div><!-- //main_area -->
+<!--@define(cmc_log)-->
+
+<style>
+.sub_top_ban {display:none;}
+#header {margin:0 auto; border:0;}
+#container,
+#contents {width:1240px; margin:0 auto}
+</style>
